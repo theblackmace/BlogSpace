@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+nav {
+    background-color: beige;
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav > h3 {
+    margin: 0;
+}
+
+#blog-list {
+    padding: 10px;
+}
+
+form {
+    padding: 60px 10px 10px;
+    display: grid;
+    width: 500px;
+}
+
+#form-container {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+button {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#post-body-label {
+    margin-top: 3px;
+}
+
+textarea {
+    resize: none;
+}
